@@ -13,7 +13,7 @@ public class ExcelDate {
 
     public static void main(String[] args) throws IOException {
 
-        String path=".//src//resource//16个账号.xlsx";
+        String path=".//src//main//resources//16个账号.xlsx";
 
         FileInputStream excelfile=new FileInputStream(path);
 
@@ -21,9 +21,9 @@ public class ExcelDate {
 
         XSSFSheet sheet=wb.getSheetAt(0);
 
-        XSSFRow row=sheet.getRow(1);
+        XSSFRow row=sheet.getRow(1);//行
 
-        XSSFCell cell=row.getCell(1);
+        XSSFCell cell=row.getCell(0);
         System.out.println(cell);
 
 
