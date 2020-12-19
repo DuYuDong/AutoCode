@@ -8,9 +8,9 @@
     <artifactId>AutoCode</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-<!--<profiles>
+<profiles>
     <profile></profile>
-</profiles>-->
+</profiles>
 
 
 </project>
