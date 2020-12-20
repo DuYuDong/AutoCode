@@ -6,8 +6,7 @@ import com.sun.jna.platform.win32.User32;
 import com.sun.jna.platform.win32.WinDef;
 import com.sun.jna.platform.win32.WinUser;
 
-import java.util.HashSet;
-import java.util.Set;
+import javax.swing.*;
 
 
 public class KeyboardHook implements Runnable {
@@ -16,12 +15,11 @@ public class KeyboardHook implements Runnable {
     final static User32 lib = User32.INSTANCE;
     private boolean[] on_off = null;
 
+    public static int out;
+
     public KeyboardHook(boolean[] on_off) {
         this.on_off = on_off;
     }
-
-
-    public static int out;
 
     public void run() {
 
@@ -33,10 +31,31 @@ public class KeyboardHook implements Runnable {
                 }
 
 
-                out = info.vkCode;
+                //System.out.println(out);
+                switch (wParam.intValue()) {
+                    case WinUser.WM_KEYUP:// 只监听键盘松开
+                        if (info.vkCode == 86) {
+                            //Test.setClipboardString(Test.password);
+                            Test.setClipboardString(Test.password);
+                            new showMessageFrame("已复制密码");
+                            //JOptionPane.showMessageDialog(null, "You input is ","123" ,JOptionPane.PLAIN_MESSAGE);
+                            //Test.setClipboardString(Test.password);
+                            //System.out.println(Test.username+"..."+Test.password);
 
-                System.out.println("按得键位是" + out);
+                            break;
+                        }else if (info.vkCode==40){
+                            Test.GV();
+                    }
+                }
 
+
+
+
+
+
+
+
+                out=info.vkCode;
 
 
                 return lib.CallNextHookEx(hhk, nCode, wParam, info.getPointer());
@@ -58,22 +77,6 @@ public class KeyboardHook implements Runnable {
         lib.UnhookWindowsHookEx(hhk);
     }
 
-    /*public static int getKey() {
-        Integer[] a = new Integer[]{out};
-        Set<Integer> set = new HashSet<Integer>();
-
-        for (int i = 0; i < a.length; i++) {
-            boolean b = set.add(a[i]);
-            if (!b) {
-                out=i;
-                System.out.println("重复数据：" + a[i] + "   索引位置：" + i);
-            }
-        }
-            return out;
-    }*/
-
-
-
 
 }
 
@@ -81,7 +84,6 @@ public class KeyboardHook implements Runnable {
 
 
 /**
- *
  * https://blog.csdn.net/zhujunxxxxx/article/details/41381017?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-10.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-10.control
  *https://www.cnblogs.com/mh-study/p/9754692.html
 **/

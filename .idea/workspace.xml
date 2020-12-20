@@ -2,19 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1776754-bb3e-422d-9a52-05817849512b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jna_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jna_4_0_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jna_platform_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/jna-4.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/lib/jna-platform-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyd/ExcelData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyd/showMessageFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/monitor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/num.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/ExcelDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyd/ExcelDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/ExcelDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/KeyboardHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyd/KeyboardHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyd/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyd/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/16个账号.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/16个账号.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/16个账号.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/16个账号.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/ExcelDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/KeyboardHook$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/KeyboardHook$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/KeyboardHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/KeyboardHook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/Monitor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/Monitor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/Monitor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/Monitor$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/Monitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,12 +53,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1lsbSm8KGtppeI5nQlFaWl0n7Sc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -48,18 +71,18 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\崔志红\Desktop\AutoCode\src\main\lib" />
-      <recent name="C:\Users\崔志红\Desktop\AutoCode\lib" />
-      <recent name="C:\Users\崔志红\Desktop\AutoCode\src\main\resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\崔志红\Desktop\AutoCode\src\main\java\com\dyd" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\崔志红\Desktop\AutoCode\src\main\resources" />
+      <recent name="C:\Users\崔志红\Desktop\AutoCode\src\main\lib" />
+      <recent name="C:\Users\崔志红\Desktop\AutoCode\lib" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="ExcelDate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dyd.ExcelDate" />
+  <component name="RunManager" selected="Application.Monitor">
+    <configuration name="ExcelData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dyd.ExcelData" />
       <module name="AutoCode" />
       <extension name="coverage">
         <pattern>
@@ -97,11 +120,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="showMessageFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dyd.showMessageFrame" />
+      <module name="AutoCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dyd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Monitor" />
-        <item itemvalue="Application.ExcelDate" />
+        <item itemvalue="Application.showMessageFrame" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ExcelData" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +155,7 @@
       <workItem from="1608388769482" duration="1181000" />
       <workItem from="1608391644754" duration="51000" />
       <workItem from="1608391835070" duration="3281000" />
+      <workItem from="1608441340747" duration="19038000" />
     </task>
     <servers />
   </component>
@@ -125,25 +163,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1608395584007">
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1608446696992">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608395584007" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1608395584007">
+    <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608446696992" />
+    <state x="372" y="6" key="CommitChangelistDialog2" timestamp="1608442921395">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608395584007" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1608395584007">
+    <state x="372" y="6" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1608442921395" />
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom" timestamp="1608460409112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608395584007" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1608395584007">
+    <state width="1493" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608460409112" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center" timestamp="1608460409112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608395584007" />
+    <state width="1493" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608460409112" />
+    <state width="1493" height="155" key="GridCell.Tab.0.left" timestamp="1608460409112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608460409112" />
+    <state width="1493" height="155" key="GridCell.Tab.0.right" timestamp="1608460409112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608460409112" />
     <state x="497" y="67" key="Maven.ArtifactSearchDialog" timestamp="1608393320231">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="497" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1608393320231" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1608453832131">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1608453832131" />
   </component>
 </project>

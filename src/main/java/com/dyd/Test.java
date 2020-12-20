@@ -8,16 +8,33 @@ import java.awt.datatransfer.Transferable;
 
 public class Test {
 
-    public static void main(String[] args) {
-        //System.out.println("进入系统！！！！");
+    public static String username;
+    public static String password;
 
-        //String text = getClipboardString();
-        //System.out.println( text);
+    /**
+     * 按第一次v键，复制账号
+     * 按第二次v键，复制密码
+     */
 
-        setClipboardString("456789hong@163.com----123456789");
+    public static void GV(){
+        String getValue=ExcelData.getExcelData();
+        String[] sArr=getValue.split("----");
+
+        for(int i=0;i<sArr.length;i++){
+            if(i==1){
+                username=sArr[0];
+            }else {
+                password=sArr[1];
+            }
+        }
+        //System.out.println(username+"..."+password);
+        setClipboardString(username);
+
+        new showMessageFrame("已复制用户名");
 
 
     }
+
 
     /**
      * 把文本设置到剪贴板（复制）

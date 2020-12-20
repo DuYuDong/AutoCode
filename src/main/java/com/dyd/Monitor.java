@@ -10,15 +10,13 @@ public class Monitor {
 
     public Monitor()  {
         boolean [] on_off={true};
-        //new Thread(new ProcessInfo(on_off)).start();
         new Thread(new KeyboardHook(on_off)).start();
-        //new Thread(new MouseHook(on_off)).start();
         final TrayIcon trayIcon;
 
         if (SystemTray.isSupported()) {
 
             SystemTray tray = SystemTray.getSystemTray();
-            Image image = Toolkit.getDefaultToolkit().getImage(".//lib//monitor.png");
+            Image image = Toolkit.getDefaultToolkit().getImage("..//src//main//resources//monitor.png");
 
             ActionListener exitListener = new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
@@ -36,9 +34,7 @@ public class Monitor {
 
             ActionListener actionListener = new ActionListener() {
                 public void actionPerformed(ActionEvent e) {
-                    trayIcon.displayMessage("Action Event",
-                            "An Action Event Has Been Peformed!",
-                            TrayIcon.MessageType.INFO);
+                    trayIcon.displayMessage("Action Event", "An Action Event Has Been Peformed!", TrayIcon.MessageType.INFO);
                 }
             };
 
@@ -54,9 +50,7 @@ public class Monitor {
         }
     }
     public static void main(String[] args)  {
-        /*int out=KeyboardHook.getKey();
-        System.out.println("输出是："+out);*/
-
+        Test.GV();
         new Monitor();
     }
 }
