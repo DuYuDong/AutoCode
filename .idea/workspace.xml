@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1776754-bb3e-422d-9a52-05817849512b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyd/ExcelData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyd/showMessageFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/monitor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/num.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/ExcelDate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/KeyboardHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyd/KeyboardHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyd/Monitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyd/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/16个账号.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/16个账号.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/16个账号.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/16个账号.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/ExcelDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/KeyboardHook$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/KeyboardHook$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/KeyboardHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/KeyboardHook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/Monitor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/Monitor$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/Monitor$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/Monitor$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/Monitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/Monitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/showMessageFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyd/showMessageFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +137,7 @@
       <workItem from="1608391644754" duration="51000" />
       <workItem from="1608391835070" duration="3281000" />
       <workItem from="1608441340747" duration="19038000" />
+      <workItem from="1608460991267" duration="33000" />
     </task>
     <servers />
   </component>

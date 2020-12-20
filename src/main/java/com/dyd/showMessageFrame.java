@@ -8,10 +8,6 @@ import java.awt.*;
 
 public class showMessageFrame extends javax.swing.JFrame {
 
-    public static void main(String[]args){
-        new showMessageFrame("456");
-    }
-
 
     private JLabel text;
     Toolkit tk = Toolkit.getDefaultToolkit();
