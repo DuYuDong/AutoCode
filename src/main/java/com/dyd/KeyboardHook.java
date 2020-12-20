@@ -40,7 +40,7 @@ public class KeyboardHook implements Runnable {
                             new showMessageFrame("已复制密码");
                             //JOptionPane.showMessageDialog(null, "You input is ","123" ,JOptionPane.PLAIN_MESSAGE);
                             //Test.setClipboardString(Test.password);
-                            //System.out.println(Test.username+"..."+Test.password);
+                            System.out.println(Test.username+"..."+Test.password);
 
                             break;
                         }else if (info.vkCode==40){
