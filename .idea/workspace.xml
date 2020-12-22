@@ -7,15 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1776754-bb3e-422d-9a52-05817849512b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AutoCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jna_4_0_0__3_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyd/showMessageFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyd/showMessageFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/num.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/num.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dyd/showMessageFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyd/showMessageFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/num.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/num.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/可以使用的.txt" beforeDir="false" afterPath="$PROJECT_DIR$/可以使用的.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +152,7 @@
       <workItem from="1608559401256" duration="410000" />
       <workItem from="1608559928105" duration="4064000" />
       <workItem from="1608605168739" duration="622000" />
+      <workItem from="1608611706617" duration="1395000" />
     </task>
     <servers />
   </component>
@@ -182,25 +177,25 @@
     </state>
     <state x="267" y="134" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608559598756" />
     <state x="300" y="152" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608461870042" />
-    <state width="1286" height="163" key="GridCell.Tab.0.bottom" timestamp="1608605069972">
+    <state width="1286" height="163" key="GridCell.Tab.0.bottom" timestamp="1608613222904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608605069972" />
+    <state width="1286" height="163" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608613222904" />
     <state width="1493" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608464761098" />
-    <state width="1286" height="163" key="GridCell.Tab.0.center" timestamp="1608605069972">
+    <state width="1286" height="163" key="GridCell.Tab.0.center" timestamp="1608613222904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608605069972" />
+    <state width="1286" height="163" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608613222904" />
     <state width="1493" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608464761098" />
-    <state width="1286" height="163" key="GridCell.Tab.0.left" timestamp="1608605069972">
+    <state width="1286" height="163" key="GridCell.Tab.0.left" timestamp="1608613222904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608605069972" />
+    <state width="1286" height="163" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608613222904" />
     <state width="1493" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608464761098" />
-    <state width="1286" height="163" key="GridCell.Tab.0.right" timestamp="1608605069972">
+    <state width="1286" height="163" key="GridCell.Tab.0.right" timestamp="1608613222904">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608605069972" />
+    <state width="1286" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608613222904" />
     <state width="1493" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608464761098" />
     <state x="497" y="67" key="Maven.ArtifactSearchDialog" timestamp="1608393320231">
       <screen x="0" y="0" width="1536" height="824" />
