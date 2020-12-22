@@ -40,7 +40,7 @@ public class showMessageFrame extends javax.swing.JFrame {
             pack();
             setBounds(width / 2 - 180, height - 150, 360, 100);
             try {
-                Thread.sleep(2000);
+                Thread.sleep(1000);
             } catch (InterruptedException e1) {
                 e1.printStackTrace();
             }
